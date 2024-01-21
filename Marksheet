@@ -99,10 +99,10 @@ int main()
     
     
     int markso = overallmarks;
-    string wordso = numberToWords(markso); // words will now hold "eighty five"
+    string wordso = numberToWords(markso); // words will now hold "overall marks"
 
     int markst = totalmarks;
-    string wordst = numberToWords(markst); // words will now hold "eighty five"
+    string wordst = numberToWords(markst); // words will now hold "total marks"
 
     cout << "Your Student " << studentname << " has scored " << wordso << " out of " << wordst << endl;
 
